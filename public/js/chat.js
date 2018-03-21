@@ -1,10 +1,4 @@
 /* Variables */
-var user;
-var timer;
-var socket;
-var oldname;
-var username;
-var typeTimer;
 var clients = [];
 var usersTyping = [];
 var nmr = 0;
@@ -16,6 +10,8 @@ var connected = false;
 var version = VERSION;
 var blop = new Audio('sounds/blop.wav');
 var regex = /(&zwj;|&nbsp;)/g;
+
+var user, timer, socket, oldname, username, typeTimer;
 
 var settings = {
     'name': null,
